@@ -1,0 +1,56 @@
+@import url(./fish.css);
+@import url(./tank.css);
+@import url(./travel.css);
+
+/* * {
+    border: 1px dotted black;
+    margin: 4px;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(171, 192, 191);
+}
+
+header {
+    background-color: rgb(181, 219, 219);
+    text-align: center;
+    border-radius: 30px;
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo {
+    height: 100px;
+}
+
+.title {
+    align-content: center;
+    padding: 15px;
+}
+
+.nav {
+    text-align: center;
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.left {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.right {
+    flex: 1;
+}

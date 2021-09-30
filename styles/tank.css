@@ -1,0 +1,14 @@
+.tank-maint {
+    background-color: rgb(181, 219, 219);
+    border-radius: 5%;
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+}
+
+.cleaning, .salinity, .temp {
+    padding: 10px;
+    background-color: rgb(205, 231, 231);
+    border-radius: 5%;
+    margin: 10px;
+}

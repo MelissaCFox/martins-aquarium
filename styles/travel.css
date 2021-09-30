@@ -1,0 +1,48 @@
+
+.travel {
+    background-color: rgb(181, 219, 219);
+    border-radius: 5%;
+    padding: 10px;
+    flex: 1;
+    margin: 10px;
+}
+
+.tips {
+    background-color: rgb(247, 219, 178);
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.location {
+    background-color: rgb(205, 231, 231);
+    border-radius: 5%;
+    margin-bottom: 20px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading {
+    text-align: center;
+}
+
+.claude {
+    text-align: center;
+}
+
+.claude-img {
+    max-width: 75%;
+    margin-top: 20px;
+}
+
+.location-info {
+    flex: 4;
+}
+
+.location-image {
+    max-width: 150px;
+    flex: 1;
+    margin: 30% 30px 30% 0;
+}

@@ -1,0 +1,30 @@
+.fish-list {
+    background-color: rgb(181, 219, 219);
+    border-radius: 5%;
+    padding: 10px;
+    flex: 2;
+    margin: 10px;
+}
+
+.fish {
+    display: flex;
+    flex: nowrap;
+    align-items: center;
+}
+
+.fish-image {
+    flex: 1;
+    padding: 10px;
+}
+
+.image {
+    width: 300px;
+}
+
+.fish-info {
+    flex: 2;
+    padding: 10px;
+    background-color: rgb(205, 231, 231);
+    border-radius: 5%;
+    margin: 10px;
+}
