@@ -1,4 +1,4 @@
-.fish-list {
+.fish-section {
     background-color: rgb(181, 219, 219);
     border-radius: 5%;
     padding: 10px;
@@ -15,7 +15,10 @@
 .fish-image {
     flex: 1;
     padding: 10px;
+    width: 300px;
+    height: 200px;
 }
+
 
 .image {
     width: 300px;
@@ -23,8 +26,9 @@
 
 .fish-info {
     flex: 2;
-    padding: 10px;
+    padding: 40px 20px;
     background-color: rgb(205, 231, 231);
     border-radius: 5%;
     margin: 10px;
+    font-size: large;
 }
