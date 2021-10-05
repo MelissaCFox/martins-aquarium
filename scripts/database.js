@@ -63,14 +63,14 @@ const database = {
             country: "Grand Cayman",
             example1: "Horse-Eye Jack Fish",
             example2: "Queen Angelfish",
-            example3: "Silver Side Fish",
+            example3: "Smooth Trunkfish",
             imageSrc: "https://t3.ftcdn.net/jpg/02/43/44/42/360_F_243444206_slsYKmANDb4CbGLpYuDCk1LnfX7x9Plr.jpg",
             imageAlt: "Aerial view of Grand Cayman"
         },
         {
             name: "Galapagos Islands",
             country: "Ecuador",
-            example1: "Sergean Major",
+            example1: "Sergeant Major",
             example2: "King Angelfish",
             example3: "Marble Ray",
             imageSrc: "https://static.onecms.io/wp-content/uploads/sites/28/2019/12/galapagos-islands-ecuador-GALAPA1104.jpg",
