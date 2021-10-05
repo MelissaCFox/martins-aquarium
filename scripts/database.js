@@ -41,10 +41,41 @@ const database = {
             image:"https://i.pinimg.com/736x/7a/33/d6/7a33d691cde517fc2ac787497f1b56af--sea-world-red-sea.jpg"
         }
     ],
+    
     tips: [
         {tip: "For added cushion, pack wetsuits around regulators and other sensitive equipment!"},
         {tip: "Don't forget to pack a few save-a-dive tools, like a crescent wrench and Allen keys!"},
         {tip: "If you want to join the Scuba Squad, you've got to be smart!"}
+    ],
+
+    location: [
+        {
+            name: "Great Barrier Reef",
+            country: "Australia",
+            example1: "Moorish Idol",
+            example2: "Blackback Butterflyfish",
+            example3: "Barramundi Cod",
+            imageSrc: "https://api.time.com/wp-content/uploads/2021/07/great-barrier-reef.jpg?w=824&quality=70",
+            imageAlt: "Aerial view of Great Barrier Reef"
+        },
+        {
+            name: "Caribbean Sea",
+            country: "Grand Cayman",
+            example1: "Horse-Eye Jack Fish",
+            example2: "Queen Angelfish",
+            example3: "Silver Side Fish",
+            imageSrc: "https://t3.ftcdn.net/jpg/02/43/44/42/360_F_243444206_slsYKmANDb4CbGLpYuDCk1LnfX7x9Plr.jpg",
+            imageAlt: "Aerial view of Grand Cayman"
+        },
+        {
+            name: "Galapagos Islands",
+            country: "Ecuador",
+            example1: "Sergean Major",
+            example2: "King Angelfish",
+            example3: "Marble Ray",
+            imageSrc: "https://static.onecms.io/wp-content/uploads/sites/28/2019/12/galapagos-islands-ecuador-GALAPA1104.jpg",
+            imageAlt: "Aerial view of Galapagos Islands"
+        }
     ]
 }
 
@@ -54,6 +85,10 @@ export const getFish = () => {
 
 export const getTips = () => {
     return database.tips.map(tips => ({...tips}))
+}
+
+export const getLocations = () => {
+    return database.location.map(location => ({...location}))
 }
 
 // CREATE NEW FISH ARRAYS BASED ON HOLY CALCULATION

@@ -17,3 +17,8 @@ parentHTMLElement.innerHTML = FishList()
 import {TipList} from './Tips/TipList.js'
 let startHTMLElement = document.querySelector(".travel-tips")
 startHTMLElement.innerHTML = TipList()
+
+
+import {LocationsList} from './Locations/LocationList.js'
+let headHTMLElement = document.querySelector(".locations")
+headHTMLElement.innerHTML = LocationsList()
